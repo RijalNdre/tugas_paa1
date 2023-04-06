@@ -1,4 +1,4 @@
-export default function register() {
+export default function login() {
 
     return (
       <section className="bg-gray-50 dark:bg-gray-900">
@@ -12,7 +12,7 @@ export default function register() {
               <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                 Register
               </h1>
-              <form method='POST' action="/api/auth"  className="space-y-4 md:space-y-6" >
+              <form method='POST' action="/api/login"  className="space-y-4 md:space-y-6" >
                 <div>
                   <label
                     htmlFor="email"
